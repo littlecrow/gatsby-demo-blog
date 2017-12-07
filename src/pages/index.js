@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 
 const IndexPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
+
   return (
     <div>
       {posts.map(({ node: post }) => {

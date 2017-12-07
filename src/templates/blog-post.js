@@ -2,9 +2,10 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-const Template = ({ date, location }) => {
-  const { markdownRemark, post } = data;
-  const { fronmatter, html } = post;
+const Template = ({ data, location }) => {
+  const { markdownRemark: post } = data; // naming
+  const { frontmatter, html } = post;
+  const { title, date } = frontmatter;
 
   return (
     <div>
@@ -35,3 +36,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default Template;
