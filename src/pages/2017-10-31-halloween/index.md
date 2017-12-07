@@ -8,4 +8,4 @@ exerpt: "Great Pumpkin, or Greatest Pumpkin?"
 
 # AROOOOOOOOOOOOOOOOO
 
-It was clear black night, a lcear white mood
+It was clear black night, a clear white mood
