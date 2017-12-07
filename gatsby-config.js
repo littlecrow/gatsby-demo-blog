@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `my-blog`, // config name for deploy
   siteMetadata: {
     title: `Gatsby Default Starter`,
   },
